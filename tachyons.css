@@ -3313,3 +3313,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-l { vertical-align: bottom; }
 }
 
+/* CODEYARD'S ADDITION TO TACHYONS */
+
+.mw10 { max-width: 71rem; }
