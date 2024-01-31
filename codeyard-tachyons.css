@@ -1,101 +1,163 @@
 /* CodeYard's addition to tachyons */
 
 /* CodeYard WIDTHS */
-
-.cw1 { width: 1rem; }
 .w-85 { width: 85%; }
+.cw1 { width: 1rem; }
 .cw24 { width: 24rem; }
 .cw18 { width: 18rem; }
 
 
 /* CodeYard MAX-WIDTHS */
-
-.mw10 { max-width: 71rem; }
-.cmw1 { max-width: 20rem; }
+.cmw71 { max-width: 71rem; }
 .cmw29 { max-width: 29rem; }
-.w-16r { max-width: 16rem; }
-.w-36r { max-width: 36rem; }
-
-
+.cmw16 { max-width: 16rem; }
+.cmw36 { max-width: 36rem; }
 
 /* CodeYard MIN-WIDTHS */
-
-.cw32 { min-width: 22.5rem; }
+.cmmw22-5 { min-width: 22.5rem; }
 
 /* CodeYard MARGIN */
-
 .ml4 { margin-left: 4rem;}
-
 .mb0-1 { margin-bottom: 0.1rem; }
-
 .mt1 { margin-top: 1rem; }
-
 .mr0-5 { margin-right: 0.5rem; }
 
 /* CodeYard TYPOGRAPHY */
-
-
 .f2-5 { font-size: 2.5rem; }
 .f3-25 { font-size: 3.25rem; }
 .f1-125 { font-size: 1.125rem; }
 .f0-875 { font-size: 0.875rem; }
-.fs-1 { font-size: 1rem; }
+.fs0-1 { font-size: 1rem; }
 
 /* CodeYard BORDERS */
-
 .border-none { border: none; }
 .br0-375 { border-radius: 0.375rem; }
 
 /* BACKGROUND */
-
 .bgo { background-color: #F47A53; }
 
-
 /* CodeYard HEIGHT */
-
-.ch1 { height: 6.875rem; }
-.ch2 { height: 1.375rem; }
-.ch3 { height: 4.125rem; }
-
+.ch6-875 { height: 6.875rem; }
+.ch1-375 { height: 1.375rem; }
+.ch4-125 { height: 4.125rem; }
 .ch3-4 { height: 3.4rem; }
 .ch24 { height: 24rem; }
 
-
 /* CodeYard MARGIN */
 
-.cmt1 { margin-top: 12rem; }
-.cmt2 { margin-top: 5.625rem; }
-
+.cmt12 { margin-top: 12rem; }
+.cmt5-625 { margin-top: 5.625rem; }
 
 
 /* CodeYard's addition to the -ns media query */
 @media screen and (min-width: 30em) {
-    .cmt1-ns { margin-top: 12rem; }
-    .w-36r-ns { max-width: 38rem; }
-    .f3-25-ns { font-size: 3.25rem; }
 
-    .cw32-ns { width: 32rem; }
-    .ch24-ns { height: 24rem; }
-    .cw24-ns { width: 24rem; }
+.f3-25-ns { font-size: 3.25rem; }
+.f1-125-ns { font-size: 1.125rem; }
 
-    .f1-125-ns { font-size: 1.125rem; }
+/* CodeYard WIDTHS */
+.w-85-ns { width: 85%; }
+.cw1-ns { width: 1rem; }
+.cw24-ns { width: 24rem; }
+.cw18-ns { width: 18rem; }
 
+
+/* CodeYard MAX-WIDTHS */
+.cmw71-ns { max-width: 71rem; }
+.cmw29-ns { max-width: 29rem; }
+.cmw16-ns { max-width: 16rem; }
+.cmw36-ns { max-width: 36rem; }
+
+/* CodeYard MIN-WIDTHS */
+.cmmw22-5-ns { min-width: 22.5rem; }
+
+/* CodeYard MARGIN */
+.ml4-ns { margin-left: 4rem;}
+.mb0-1-ns { margin-bottom: 0.1rem; }
+.mt1-ns { margin-top: 1rem; }
+.mr0-5-ns { margin-right: 0.5rem; }
+
+/* CodeYard TYPOGRAPHY */
+.f2-5-ns { font-size: 2.5rem; }
+.f3-25-ns { font-size: 3.25rem; }
+.f1-125-ns { font-size: 1.125rem; }
+.f0-875-ns { font-size: 0.875rem; }
+.fs0-1-ns { font-size: 1rem; }
+
+/* CodeYard BORDERS */
+.border-none-ns { border: none; }
+.br0-375-ns { border-radius: 0.375rem; }
+
+/* BACKGROUND */
+.bgo-ns { background-color: #F47A53; }
+
+/* CodeYard HEIGHT */
+.ch6-875-ns { height: 6.875rem; }
+.ch1-375-ns { height: 1.375rem; }
+.ch4-125-ns { height: 4.125rem; }
+.ch3-4-ns { height: 3.4rem; }
+.ch24-ns { height: 24rem; }
+
+/* CodeYard MARGIN */
+
+.cmt12-ns { margin-top: 12rem; }
+.cmt5-625-ns { margin-top: 5.625rem; }
 
 }
 
 
 /* CodeYard's addition to the -m media query */
 @media screen and (min-width: 30em) and (max-width: 60em) {
+
 }
 
 
 /* CodeYard's addition to the -l media query */
 @media screen and (min-width: 60em) {
-    .ch1-l { height: 6.875rem; }
-    .cw2-l { width: 1.375rem; }
-    .cmt1-l { margin-top: 12rem; }
-    .w-85-l { width: 85%; }
-    .cw24-l { width: 24rem; }
 
+/* CodeYard WIDTHS */
+.w-85-l { width: 85%; }
+.cw1-l { width: 1rem; }
+.cw24-l { width: 24rem; }
+.cw18-l { width: 18rem; }
 
+/* CodeYard MAX-WIDTHS */
+.cmw71-l { max-width: 71rem; }
+.cmw29-l { max-width: 29rem; }
+.cmw16-l { max-width: 16rem; }
+.cmw36-l { max-width: 36rem; }
+
+/* CodeYard MIN-WIDTHS */
+.cmmw22-5-l { min-width: 22.5rem; }
+
+/* CodeYard MARGIN */
+.ml4-l { margin-left: 4rem;}
+.mb0-1-l { margin-bottom: 0.1rem; }
+.mt1-l { margin-top: 1rem; }
+.mr0-5-l { margin-right: 0.5rem; }
+
+/* CodeYard TYPOGRAPHY */
+.f2-5-l { font-size: 2.5rem; }
+.f3-25-l { font-size: 3.25rem; }
+.f1-125-l { font-size: 1.125rem; }
+.f0-875-l { font-size: 0.875rem; }
+.fs0-1-l { font-size: 1rem; }
+
+/* CodeYard BORDERS */
+.border-none-l { border: none; }
+.br0-375-l { border-radius: 0.375rem; }
+
+/* BACKGROUND */
+.bgo { background-color: #F47A53; }
+
+/* CodeYard HEIGHT */
+.ch6-875-l { height: 6.875rem; }
+.ch1-375-l { height: 1.375rem; }
+.ch4-125-l { height: 4.125rem; }
+.ch3-4-l { height: 3.4rem; }
+.ch24-l { height: 24rem; }
+
+/* CodeYard MARGIN */
+.cmt12-l { margin-top: 12rem; }
+.cmt5-625-l { margin-top: 5.625rem; }
 }
