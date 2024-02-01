@@ -19,8 +19,18 @@
 /* CodeYard MARGIN */
 .ml4 { margin-left: 4rem;}
 .mb0-1 { margin-bottom: 0.1rem; }
-.mt1 { margin-top: 1rem; }
+.cmt1 { margin-top: 1rem; }
 .mr0-5 { margin-right: 0.5rem; }
+
+.cmb0-5 { margin-bottom: 0.5rem; }
+
+
+/* CodeYard PADDING */
+
+/* .c-b-p { 
+    padding-right: 7.4rem;
+    padding-left: 7.4rem;
+} */
 
 /* CodeYard TYPOGRAPHY */
 .f2-5 { font-size: 2.5rem; }
@@ -133,7 +143,7 @@
 /* CodeYard MARGIN */
 .ml4-l { margin-left: 4rem;}
 .mb0-1-l { margin-bottom: 0.1rem; }
-.mt1-l { margin-top: 1rem; }
+.cmt1-l { margin-top: 1rem; }
 .mr0-5-l { margin-right: 0.5rem; }
 
 /* CodeYard TYPOGRAPHY */
